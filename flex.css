@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 66px;
+    padding: 10px 0px 0px 0px;
+  }
+
+li{
+    text-decoration: none;
+    display: inline;
+    padding: 30px;
+}
+.container{
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1{
+    background-color: cadetblue;
+    width: 130vh;
+    color: white;
+    height: 130vh;
+}
+.box2{
+    background-color: rgb(61, 16, 16);
+    width: 130vh;
+    color:white;
+    height: 130vh;
+}

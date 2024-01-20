@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+    color: white;
+}
+li{
+    text-decoration: none;
+    display: inline;
+}
+.left{
+    background-color: aquamarine;
+    color: white;
+    height: 80vh;
+    width: 40vh;
+    float: left;
+}
+.right{
+    background-color: aquamarine;
+    height: 80vh;
+    width: 40vh;
+    color: white;
+    float: right;
+}

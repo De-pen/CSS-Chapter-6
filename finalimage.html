@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image placing Using Flexbox</title>
+    <style>
+        .container1{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .container3{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .container2{
+            display: flex;
+            background-image: url("bg-image.jpeg");
+           background-repeat: repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="icon">
+            <img src="clock.png" alt="clock" width="50px">
+        </div>
+        <div class="text">
+            <p>Thank You for Coming</p>
+        </div>
+    </div>
+    
+    <div class="container2">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eum ipsa dolorum, veritatis amet nihil. Cumque vero optio iusto molestiae qui, voluptatum, nihil iste consequatur consequuntur a aliquid ducimus illum?</p>
+    </div>
+    <div class="container3">
+        <div class="image1">
+            <img src="pic1.jpeg" alt="picture1">
+        </div>
+        <div class="image2">
+            <img src="pic2.jpeg" alt="picture2">
+        </div>
+        <div class="image3"><img src="pic3.jpeg" alt="picture3"></div>
+    </div>
+</body>
+</html>
